@@ -15,10 +15,10 @@ Only the __JDK ( 9 or above)  is needed__
 ### Hints to manually compile it
 
 ```
-cd [your-path]/Training-JSE-MultiModule-HelloWorld 
+cd [your-path]/Training-JSE-MonoModule-HelloWorld 
 
 javac --module-path mod -d mod/net.tinvention.training.jse.jpms \
-  src/net/tinvention/training/jse/jpms/module-info.java \ 
+  src/net/tinvention/training/jse/jpms/module-info.java \
   src/net/tinvention/training/jse/jpms/hw/HelloWorld.java 
 
 ```
@@ -50,7 +50,7 @@ javac --module-path mod -d mod/net.tinvention.training.jse.jpms.logic \
   Training-JSE-MultiModule-Logic/src/net.tinvention.training.jse.jpms.logic/net/tinvention/training/jse/jpms/logic/model/MessageModel.java 
 
 javac --module-path mod -d mod/net.tinvention.training.jse.jpms.ui \
-  Training-JSE-MultiModule-UI/src/net.tinvention.training.jse.jpms.ui/module-info.java  \
+  Training-JSE-MultiModule-UI/src/net.tinvention.training.jse.jpms.ui/module-info.java \
   Training-JSE-MultiModule-UI/src/net.tinvention.training.jse.jpms.ui/net/tinvention/training/jse/jpms/ui/console/MainMessageUiComponent.java 
 
 ```
@@ -60,8 +60,8 @@ javac --module-path mod -d mod/net.tinvention.training.jse.jpms.ui \
 ```
 cd [your-path]/Training-JSE-MultiModule-Layering 
 
-java --module-path mod  \ 
-  -m net.tinvention.training.jse.jpms/net.tinvention.training.jse.jpms.ui.console.MainMessageUiComponent
+java --module-path mod \
+  -m net.tinvention.training.jse.jpms.ui/net.tinvention.training.jse.jpms.ui.console.MainMessageUiComponent
 
 ```
 
