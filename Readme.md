@@ -11,7 +11,7 @@ There are two projects:
 
 ## Note
 * This example do not use *Apache Maven JMod Plugin* or *Apache Maven JLink Plugin* . Currently the are in alpha version.
-* Below it is used the "/" char for "cd" commands, on windows use "\" in place
+* Below it is used the "/" char for "cd" commands, on *Windows* you need to use "\" in place of "/"
 
 ### Requirements
 
