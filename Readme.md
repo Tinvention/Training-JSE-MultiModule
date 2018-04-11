@@ -9,6 +9,8 @@ There are two projects:
 * *Training-JSE-MonoModule-HelloWorld* is a mono module application, an HelloWorld using java modules way.
 * *Training-JSE-MultiModule-Layering* is an example of layered applicaiton composed by three modules where modularization are used for layering the architecture. There also is a really simple example of the use of the Service provider interface (SPI) way, to select run-time a service implementation. The service implementation it is in the same module, only for simplicity.
 
+## Notes
+* Below it is used the "/" char for "cd" commands, on *Windows* you need to use "\" in place of "/"
 
 ### Requirements
 
